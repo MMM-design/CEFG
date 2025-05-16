@@ -7,10 +7,11 @@
 <img src="./fig/figure.png" width = "100%" height="50%">
 
 ## Requirements and Installation
-** Python 3.8
-** [PyTorch 1.11.0](http://pytorch.org/)
-**Transformer 4.18.0
-**Please refer to the (file src="./requritments.txt") file for the specific environment
+- Python 3.8  
+- [PyTorch 1.11.0](https://pytorch.org/)  
+- Transformers 4.18.0  
+- See [requirements.txt](./requirements.txt) for the full environment setup
+
 ## Results
 **Results on Flickr30K Test Split**
 <table>
