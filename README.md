@@ -51,8 +51,8 @@
  </tr>
    <tr> 
 	<td>CEFG</td> 
-	<td>BUTD region</td>
- 	<td>BERT-base</td> 
+	<td align="center">BUTD region</td>
+ 	<td align="center">BERT-base</td> 
 	<td>81.8</td>
 	<td>97.2</td>
 	<td>99.2</td> 
