@@ -14,8 +14,8 @@
 ## Results
 **Results on Flickr30K Test Split**
 <table>
-   <tr> <td rowspan="2">"  "</td> <td rowspan="2", align="center">Visual Backbone</td>  <td rowspan="2", align="center">Text Backbone</td>
-        <td colspan="3", align="center">Sentence retrievaltd> <td colspan="1"3 align="center">Image retrieval</td> </tr>
+   <tr> <td rowspan="2">     </td> <td rowspan="2", align="center">Visual Backbone</td>  <td rowspan="2", align="center">Text Backbone</td>
+        <td colspan="3", align="center">Sentence retrievaltd</td> <td colspan="3", align="center">Image retrieval</td> </tr>
    <tr> <td>R@1</td><td>R@5</td><td>R@10</td> <td>R@1</td><td>R@5</td><td>R@10</td> </tr>
 
     <tr> <td>CEFG</td> <td>BUTD region</td> <td>GRU-base</td> <td>78.7</td><td>95.5</td><td>97.9</td> <td>61.6</td><td>85.5</td><td>90.6</td> </tr>
@@ -23,14 +23,11 @@
    
    
  **Results on COCO 5-fold 1K Test Split**
-<table>
-   <tr> <td rowspan="2">"  "</td> <td rowspan="2", align="center">Visual Backbone</td>  <td rowspan="2", align="center">Text Backbone</td>
-        <td colspan="3", align="center">Sentence retrievaltd> <td colspan="1"3 align="center">Image retrieval</td> </tr>
-   <tr> <td>R@1</td><td>R@5</td><td>R@10</td> <td>R@1</td><td>R@5</td><td>R@10</td> </tr>
-
-    <tr> <td>CEFG</td> <td>BUTD region</td> <td>GRU-base</td> <td>79.2</td><td>97.1</td><td>99.1</td> <td>63.7</td><td>91.0</td><td>96.3</td> </tr>
-   <tr> <td>CEFG</td> <td>BUTD region</td> <td>BERT-base</td> <td>81.8</td><td>97.2</td><td>99.2</td> <td>66.5</td><td>92.1</td><td>97.4</td> </tr>
-   
+| Model  | Visual Backbone | Text Backbone|  Sentence Retrieval |     Image Retrieval  |
+|----------|---------------------|------------------|-------------------------|------------------------|
+|                                                                            | R@1  | R@5 | R@10 | R@1 | R@5 | R@10 |
+|    CEFG  |   BUTD region     |      GRU-base    |  79.2 |  97.1 |   99.1  |  63.7 |  91.0 |   96.3  |
+|    CEFG  |   BUTD region     |      BERT-base   | 81.8  |  97.2 |   99.2  |  66.5 |  92.1 |   97.4  |
 
 ## Download data and vocab
 We follow [SCAN](https://github.com/kuanghuei/SCAN) to obtain image features and vocabularies, which can be downloaded by using:
