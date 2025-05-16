@@ -18,8 +18,8 @@
    <tr> <td rowspan="2">     </td> <td rowspan="2", align="center">Visual Backbone</td>  <td rowspan="2", align="center">Text Backbone</td>
         <td colspan="3", align="center">Sentence retrievaltd</td> <td colspan="3", align="center">Image retrieval</td> </tr>
    <tr> <td>R@1</td><td>R@5</td><td>R@10</td> <td>R@1</td><td>R@5</td><td>R@10</td> </tr>
-    <tr> <td>CEFG</td> <td>BUTD region</td> <td>GRU-base</td> <td>78.7</td><td>95.5</td><td>97.9</td> <td>61.6</td><td>85.5</td><td>90.6</td> </tr>
-   <tr> <td>CEFG</td> <td>BUTD region</td> <td>BERT-base</td> <td>81.7</td><td>95.6</td><td>98.0</td> <td>65.2</td> <td>88.4</td><td>93.3</td> </tr><table>
+    <tr> <td>CEFG</td> <td align="center">BUTD region</td> <td>GRU-base</td> <td>78.7</td><td>95.5</td><td>97.9</td> <td>61.6</td><td>85.5</td><td>90.6</td> </tr>
+   <tr> <td>CEFG</td> <td align="center">BUTD region</td> <td>BERT-base</td> <td>81.7</td><td>95.6</td><td>98.0</td> <td>65.2</td> <td>88.4</td><td>93.3</td> </tr><table>
    
    
  **Results on COCO 5-fold 1K Test Split**
