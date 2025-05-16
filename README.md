@@ -40,8 +40,8 @@
  </tr>
  <tr> 
 	<td>CEFG</td> 
-	<tdalign="center">BUTD region</td>
-	 <tdtdalign="center">GRU-base</td> 
+	<td align="center">BUTD region</td>
+	 <td align="center">GRU-base</td> 
 	<td>79.2</td>
 	<td>97.1</td>
 	<td>99.1</td>
